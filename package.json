@@ -10,7 +10,9 @@
     "url": "git://github.com/greypants/gulp-rails.git"
   },
   "scripts": {
-    "postinstall": "gulp build"
+    "postinstall": "gulp build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "browserify": {
     "transform": [
@@ -43,6 +45,8 @@
     "pretty-hrtime": "~0.2.1",
     "require-dir": "^0.1.0",
     "vinyl-source-stream": "~0.1.1",
-    "watchify": "^2.2.1"
-  }
+    "watchify": "^2.2.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
