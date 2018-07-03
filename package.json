@@ -10,7 +10,9 @@
     "url": "git://github.com/greypants/gulp-rails.git"
   },
   "scripts": {
-    "postinstall": "gulp build"
+    "postinstall": "gulp build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "browserify": {
     "transform": [
@@ -18,7 +20,7 @@
     ]
   },
   "dependencies": {
-    "browser-sync": "~2.4.0",
+    "browser-sync": "~2.12.9",
     "browserify": "^8.0.2",
     "coffeeify": "~0.7.0",
     "del": "^1.1.1",
@@ -26,7 +28,7 @@
     "gulp-autoprefixer": "^2.0.0",
     "gulp-changed": "^0.4.1",
     "gulp-filesize": "0.0.6",
-    "gulp-iconfont": "^3.0.0",
+    "gulp-iconfont": "^8.0.0",
     "gulp-imagemin": "^0.6.2",
     "gulp-notify": "^1.4.2",
     "gulp-rename": "^1.2.0",
@@ -43,6 +45,8 @@
     "pretty-hrtime": "~0.2.1",
     "require-dir": "^0.1.0",
     "vinyl-source-stream": "~0.1.1",
-    "watchify": "^2.2.1"
-  }
+    "watchify": "^2.2.1",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }
