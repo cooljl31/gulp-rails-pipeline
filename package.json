@@ -28,7 +28,7 @@
     "gulp-filesize": "0.0.6",
     "gulp-iconfont": "^3.0.0",
     "gulp-imagemin": "^0.6.2",
-    "gulp-notify": "^1.4.2",
+    "gulp-notify": "^3.0.0",
     "gulp-rename": "^1.2.0",
     "gulp-rev": "^3.0.1",
     "gulp-rev-collector": "^0.1.3",
