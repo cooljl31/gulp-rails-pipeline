@@ -18,7 +18,7 @@
     ]
   },
   "dependencies": {
-    "browser-sync": "~2.4.0",
+    "browser-sync": "~2.26.14",
     "browserify": "^8.0.2",
     "coffeeify": "~0.7.0",
     "del": "^1.1.1",
@@ -27,7 +27,7 @@
     "gulp-changed": "^0.4.1",
     "gulp-filesize": "0.0.6",
     "gulp-iconfont": "^3.0.0",
-    "gulp-imagemin": "^0.6.2",
+    "gulp-imagemin": "^3.0.0",
     "gulp-notify": "^1.4.2",
     "gulp-rename": "^1.2.0",
     "gulp-rev": "^3.0.1",
