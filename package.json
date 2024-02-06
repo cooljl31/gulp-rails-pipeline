@@ -35,7 +35,7 @@
     "gulp-sass": "^2.0.4",
     "gulp-sequence": "^0.3.2",
     "gulp-sourcemaps": "^1.2.8",
-    "gulp-swig": "^0.7.4",
+    "gulp-swig": "^0.9.0",
     "gulp-util": "^3.0.0",
     "gulp-watch": "^4.1.1",
     "lodash": "^2.4.1",
